@@ -67,6 +67,11 @@ JSVEECSharp.meta = {
             'description': '',
             'order': 4,
             'title': 'merkkijono'
+        },
+        'keskiarvo': {
+            'description': '',
+            'order': 5,
+            'title': 'keskiarvo'
         }
     }
 };
