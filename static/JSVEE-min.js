@@ -3,7 +3,7 @@
  * (c) Teemu Sirkiä and Aalto University, 2016 
  * Licensed under MIT license 
  * 
- * Compiled at: 2016-09-26 10:42
+ * Compiled at: 2016-09-26 10:54
  */
 'use strict';(function(b){var a=function(f,e){var d={};this.settings=b.extend(true,d,e);this.area=b(f);this.stateNumber=0;this.animationLength=300;this.steps=[];this.state={};this.state.continueRunning=false;this.state.animationsDisabled=false;this.state.explanationsDisabled=false;this.state.stepsToRun=0;this.state.stepNumber=0;
 this.undoableElements=[];this.undoStack=[];this.redoStack=[];var c=b("<div></div>").addClass("jsvee-core");c.appendTo(this.area);c.attr("data-pc","0");this.addUndoableElement(".jsvee-core");this.actionsRunning=false;this.animationDisabled=false;this.initialized=false;this.disableStateSave=false};a.utils={};a.handlers={functions:{},operators:{},classes:{},actions:{},animations:{},explanations:{},global:null,truthness:null};a.beforeEachInstructionCBs=[];a.beforeEachStepCBs=[];a.afterEachInstructionCBs=[];

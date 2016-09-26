@@ -3,7 +3,7 @@
  * (c) Teemu Sirkiä and Aalto University, 2016 
  * Licensed under MIT license 
  * 
- * Compiled at: 2016-09-26 10:42
+ * Compiled at: 2016-09-26 10:54
  */
 'use strict';(function($){if(window.JSVEE===undefined){return}$(function(){if(window.annotations){JSVEE.afterInitialization(function(){var self=this;window.annotations.registerCallback(self.animationId,function(action,parameter){if(action==="skip"){JSVEE.utils.ui.setStatusText(self.area,"Siirrytään eteenpäin");self.state.stepsToRun=+parameter;
 self.state.animationsDisabled=true;self.state.reEnableAnimations=true}else{if(action==="hideControls"){self.area.find(".jsvee-controls-area").hide()}else{if(action==="showSequence"){self.disableStateSave=true}else{if(action==="showControls"){self.area.find(".jsvee-controls-area").show()}else{if(action==="getCapabilities"){window.annotations.sendMessage(self.animationId,"animationCapabilities",null,["animationReady"])}else{if(action==="postponeEnd"){var statusArea=self.area.find(".jsvee-status-area");
