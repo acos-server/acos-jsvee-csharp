@@ -1,6 +1,6 @@
 {
   "name": "acos-jsvee-csharp",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Jsvee content package for C# animations",
   "main": "index.js",
   "scripts": {},
